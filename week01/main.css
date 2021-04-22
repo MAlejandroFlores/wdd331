@@ -18,7 +18,7 @@ a:visited {
 }
 
 a:active {
-    /* color: #DEB887; */
+    color: #DEB887;
 }
 
 a:hover {
@@ -34,24 +34,23 @@ body {
 header {
     background-color: #6495ED;
     color: #ffffff;
-    margin: 0px;
-    padding: 30px 30px 20px 35px;
-    width: 80%;
     text-align: right;
+    padding: 30px 30px 10px 30px;
+    margin: 0px;
 }
 
-header h1 a {
-    font-size: 1.7rem;
+header h1 a,
+header h1 a:visited {
+    font-size: 1.6rem;
     font-family: 'Lora', serif;
     font-weight: 900;
+    color: #FAEBD7;
 }
 
 main {
     background-color: #FAEBD7;
-    width: 100%;
-    padding: 0px;
-    padding-top: 20px;
     margin: 0px;
+    padding: 40px 20px;
 }
 
 nav ul {
@@ -63,7 +62,7 @@ nav li {
 }
 
 nav a,
-a:visited {
+nav a:visited {
     text-decoration: none;
     color: #FAEBD7;
     font-size: 1.1rem;
@@ -81,14 +80,20 @@ nav a:hover {
 
 article {
     background-color: #ffffff;
-    margin: 15px 4px 35px 10px;
+    margin: 0px;
+    margin-bottom: 40px;
     padding: 30px 30px 40px 30px;
-    width: 65%;
     border: 1px solid #f7f7f7;
     box-shadow: rgb(0 0 0 / 15%) 3.4px 3.4px 3.2px;
 }
 
-section img {
+figure {
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+figure img {
     width: 190px;
     height: auto;
     margin: auto;
@@ -108,8 +113,4 @@ section img {
     font-family: 'Lora', serif;
     font-size: 1.75rem;
     font-weight: 900;
-}
-
-section.post-content {
-    margin-top: 0px;
 }
