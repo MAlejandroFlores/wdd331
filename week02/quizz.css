@@ -1,0 +1,10 @@
+fieldset:not(:first-of-type) {
+    color: red;
+    background-color: white;
+}
+
+
+/* fieldset {
+    color: red;
+    background-color: white;
+} */
